@@ -50,6 +50,7 @@ header .input-wrapper i {
   color: #deb98f;
   font-size: 1.2em;
   position: absolute;
+  left: 10px;
   bottom: 25%;
 }
 
@@ -58,7 +59,7 @@ header .input-wrapper input {
   color: #deb98f;
   font-size: 1em;
   font-weight: 500;
-  padding: 0 25px 4px;
+  padding: 0 25px 4px 40px;
   border: none;
   outline: none;
   border-bottom: 1px solid #deb98f;
