@@ -10,17 +10,22 @@
 .container {
   background-color: #fbd9b1;
   height: 100vh;
-  padding: 60px 0 0;
+  padding: 60px 0;
+}
+
+.container .header-wrapper {
+  display: flex;
 }
 
 header {
   background-color: #fff;
   display: flex;
+  flex: 0.9;
   justify-content: space-around;
   align-items: center;
   padding: 20px 25px;
-  /* margin: 0 auto; */
   border-radius: 8px;
+  margin: 0 auto;
 }
 
 header .buttons button {
